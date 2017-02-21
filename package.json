@@ -15,9 +15,12 @@
     "typescript"
   ],
   "author": "Juri Strumpflohner",
-  "contributors": ["web-dave"],
+  "contributors": [
+    "web-dave"
+  ],
   "license": "ISC",
   "devDependencies": {
+    "@types/es6-promise": "0.0.32",
     "@types/jasmine": "2.5.40",
     "@types/node": "7.0.0",
     "awesome-typescript-loader": "3.0.0-beta.18",
@@ -34,4 +37,3 @@
     "webpack-dev-server": "2.2.1"
   }
 }
-
