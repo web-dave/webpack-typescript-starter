@@ -1,7 +1,7 @@
 
-export let voice;
+export let voice: string;
 export let muh = () => {
-    let voice = 'Bäh';
+    let voice: string = 'Bäh';
     this.voice = 'Mäh'
     let shout = () => console.log('voice', voice);
     let shout1 = () => console.log('this.voice', this.voice);
